@@ -8,13 +8,15 @@
   --primary: #161616;
   --secondary: #989898;
   --tertiary: #bbbbbb ;
+  
   --font-x-large: 48px;
   --font-large: 24px;
   --font-medium: 18px;
+  --font-small: 14px;
 }
 
 #root, body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
