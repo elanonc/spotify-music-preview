@@ -6,12 +6,8 @@ export function Router(){
   return(
     <BrowserRouter>
       <Routes>
-        <Route path="/" >
-          <Home />
-        </Route>
-        <Route path="/list-track">
-          <ListTrack />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/list-track" element={<ListTrack />} />
       </Routes>
     </BrowserRouter>
   )

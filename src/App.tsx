@@ -6,7 +6,6 @@ export function App() {
   
   return (
     <Template>
-      <Header />
       <Router />
     </Template>
   )
