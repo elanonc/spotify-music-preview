@@ -1,9 +1,17 @@
-import { Container } from "./styles";
+import { AlbumItem } from "../../components/AlbumItem/AlbumItem";
+import { Container, Row, Column } from "./styles";
 
 export function ListTrack(){
   return (
     <Container>
-      <h1>mundo</h1>
+      <Row>
+        <h2> voltar</h2>
+      </Row>
+      <Column>
+        <AlbumItem />
+        <p>1</p>
+        <p>1</p>
+      </Column>
     </Container>
   ) 
 }
