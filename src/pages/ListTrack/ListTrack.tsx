@@ -9,7 +9,12 @@ export function ListTrack(){
         <h2> voltar</h2>
       </Row>
       <Column>
-        <AlbumItem />
+        <AlbumItem 
+          size="large"
+          title="nome do album"
+          description="nome do artista"
+          imageSize="large"
+        />
         <TrackItem />
       </Column>
     </Container>

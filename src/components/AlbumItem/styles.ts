@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 160px;
-  height: 175px;
+  width: var(--${( props: { size:string } ) => props.size});
+  height: var(--${( props: { size:string } ) => props.size});
   text-align: center;
 `;
 
 export const Image = styled.img`
-  width: 160px;
-  height: 175px;
+  width: var(--${( props: { imageSize:string } ) => props.imageSize});
+  height: var(--${( props: { imageSize:string } ) => props.imageSize});
 `
 
 export const Title = styled.h3`
