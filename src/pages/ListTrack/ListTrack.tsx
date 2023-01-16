@@ -1,4 +1,5 @@
 import { AlbumItem } from "../../components/AlbumItem/AlbumItem";
+import { TrackItem } from "../../components/TrackItem/TrackItem";
 import { Container, Row, Column } from "./styles";
 
 export function ListTrack(){
@@ -9,8 +10,7 @@ export function ListTrack(){
       </Row>
       <Column>
         <AlbumItem />
-        <p>1</p>
-        <p>1</p>
+        <TrackItem />
       </Column>
     </Container>
   ) 
