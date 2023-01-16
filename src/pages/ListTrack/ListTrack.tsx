@@ -6,7 +6,7 @@ export function ListTrack(){
   return (
     <Container>
       <Row>
-        <h2> voltar</h2>
+        <h2>Voltar</h2>
       </Row>
       <Column>
         <AlbumItem 

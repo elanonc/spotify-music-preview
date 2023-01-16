@@ -13,6 +13,7 @@ export const Container = styled.div`
 export const Row = styled.div`
   display: flex;
   justify-content: flex-start;
+  padding: 15px 0 30px;
 `;
 
 
